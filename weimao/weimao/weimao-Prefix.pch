@@ -1,0 +1,81 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import"LTKNavigationViewController.h"
+    #import"DejalActivityView.h"
+    #import "Reachability.h"
+    #import"UrlImageButton.h"
+    #import"UrlImageView.h"
+
+    #import <Foundation/Foundation.h>
+    #import"TMAppDelegate.h"
+    #import"LTKViewController.h"
+
+
+    #import"FCTabBarController.h"
+    #import"Toolkit.h"
+    #import"EScrollerView.h"
+    #import "MJRefresh.h"
+
+
+#endif
+
+
+    #define zhonghui [UIColor colorWithRed:.5 green:.5 blue:.5 alpha:1.0];
+    #define hui1 [UIColor colorWithRed:.1 green:.1 blue:.1 alpha:1.0];
+    #define hui2 [UIColor colorWithRed:.2 green:.2 blue:.2 alpha:1.0];
+    #define hui3 [UIColor colorWithRed:.3 green:.3 blue:.3 alpha:1.0];
+    #define hui4 [UIColor colorWithRed:.4 green:.4 blue:.4 alpha:1.0];
+    #define hui5 [UIColor colorWithRed:.5 green:.5 blue:.5 alpha:1.0];
+    #define hui6 [UIColor colorWithRed:.6 green:.6 blue:.6 alpha:1.0];
+    #define hui7 [UIColor colorWithRed:.7 green:.7 blue:.7 alpha:1.0];
+    #define hui8 [UIColor colorWithRed:.8 green:.8 blue:.8 alpha:1.0];
+    #define hui9 [UIColor colorWithRed:.9 green:.9 blue:.9 alpha:1.0];
+    #define hui1Cg [UIColor colorWithRed:.1 green:.1 blue:.1 alpha:1.0].CGColor;
+    #define hui2Cg [UIColor colorWithRed:.2 green:.2 blue:.2 alpha:1.0].CGColor;
+    #define hui3Cg [UIColor colorWithRed:.3 green:.3 blue:.3 alpha:1.0].CGColor;
+    #define hui4Cg [UIColor colorWithRed:.4 green:.4 blue:.4 alpha:1.0].CGColor;
+    #define hui5Cg [UIColor colorWithRed:.5 green:.5 blue:.5 alpha:1.0].CGColor;
+    #define hui6Cg [UIColor colorWithRed:.6 green:.6 blue:.6 alpha:1.0].CGColor;
+    #define hui7Cg [UIColor colorWithRed:.7 green:.7 blue:.7 alpha:1.0].CGColor;
+    #define hui8Cg [UIColor colorWithRed:.8 green:.8 blue:.8 alpha:1.0].CGColor;
+    #define hui9Cg [UIColor colorWithRed:.9 green:.9 blue:.9 alpha:1.0].CGColor;
+    #define hongShe [UIColor colorWithRed:1.0 green:.23 blue:.49 alpha:1.0];
+
+    #define COMPANY_NAME @"窗帘窗饰"
+    #define MRScreenWidth      CGRectGetWidth([UIScreen mainScreen].applicationFrame)
+    #define MRScreenHeight     CGRectGetHeight([UIScreen mainScreen].applicationFrame)
+
+    #define IS_IPHONE_5 (fabs((double)[[UIScreen mainScreen] bounds].size.height - (double )568) < DBL_EPSILON )
+    #define IS_WIDESCREEN (fabs((double)[[UIScreen mainScreen] bounds].size.height - (double)568)<DBL_EPSILON )
+    #define IS_IPHONE ([[[UIDevice currentDevice] model] isEqualToString: @"iPhone" ])
+    #define IS_IPHONE_SIMULATOR ([[[UIDevice currentDevice]mode ] isEqualToString: @"iPhone Simulator"])
+    #define IS_IPOD   ([[[UIDevice currentDevice] model] isEqualToString: @"iPod touch"])
+    #define IS_IPad   ([[[UIDevice currentDevice] model] isEqualToString: @"iPad"])
+
+    #define DownloadAppImage @"http://apps.bdimg.com/developer/static/04171450/developer/images/icon/terminal_adapter.png"
+    #define DownloadAppUrl @"http://developer.baidu.com/soc/share"
+
+
+
+
+
+
+
+
+
+
+
+
+
