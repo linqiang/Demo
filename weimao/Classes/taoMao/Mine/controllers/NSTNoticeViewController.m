@@ -70,14 +70,14 @@
     [self.view addSubview:_tableView];
     _page = 0;
     // 3.3行集成下拉刷新控件
-    _header = [MJRefreshHeaderView header];
-    _header.scrollView = _tableView;
-    _header.delegate = self;
-    
-    // 4.3行集成上拉加载更多控件
-    _footer = [MJRefreshFooterView footer];
-    _footer.scrollView = _tableView;
-    _footer.delegate = self;
+//    _header = [MJRefreshHeader header];
+//    _header.scrollView = _tableView;
+//    _header.delegate = self;
+//    
+//    // 4.3行集成上拉加载更多控件
+//    _footer = [MJRefreshFooterView footer];
+//    _footer.scrollView = _tableView;
+//    _footer.delegate = self;
     TMAppDelegate *app = (TMAppDelegate*)[[UIApplication sharedApplication] delegate];
     [app startLoading];
     NSString *parmeters1=[NSString stringWithFormat:@"%@&%@&%@",@"page=1",@"pageSize=5",[NSString stringWithFormat:@"menuId=%@",[[NSUserDefaults standardUserDefaults] objectForKey:@"hangyezixun"]]];
@@ -103,27 +103,27 @@
     
 }
 
-#pragma mark - 刷新的代理方法---进入下拉刷新\上拉加载更多都有可能调用这个方法
-- (void)refreshViewBeginRefreshing:(MJRefreshBaseView *)refreshView
-{
-    if (refreshView == _header)
-    { // 下拉刷新
-        // 增加9个假数据
-        
-        // 2秒后刷新表格
-//        NSString *parmeters1=[NSString stringWithFormat:@"%@&%@&%@",@"page=1",@"pageSize=5",[NSString stringWithFormat:@"menuId=%@",[[NSUserDefaults standardUserDefaults] objectForKey:@"hangyezixun"]]];
-        
-//        [[RequestServer instance] doActionAsync:0 withAction:@"/mobile/second?" withParameters:parmeters1 withDelegate:self];
-        [self.newsArray removeAllObjects];
-        _page = 1;
-    }
-    else if(refreshView == _footer)
-    {
-        _page++;
-//        NSString *parmeters1=[NSString stringWithFormat:@"page=%d&pageSize=5&menuId=%@",_page,[[NSUserDefaults standardUserDefaults] objectForKey:@"hangyezixun"]];
-//        [[RequestServer instance] doActionAsync:0 withAction:@"/mobReachabilityile/second?" withParameters:parmeters1 withDelegate:self];
-    }
-}
+//#pragma mark - 刷新的代理方法---进入下拉刷新\上拉加载更多都有可能调用这个方法
+//- (void)refreshViewBeginRefreshing:(MJRefreshBaseView *)refreshView
+//{
+//    if (refreshView == _header)
+//    { // 下拉刷新
+//        // 增加9个假数据
+//        
+//        // 2秒后刷新表格
+////        NSString *parmeters1=[NSString stringWithFormat:@"%@&%@&%@",@"page=1",@"pageSize=5",[NSString stringWithFormat:@"menuId=%@",[[NSUserDefaults standardUserDefaults] objectForKey:@"hangyezixun"]]];
+//        
+////        [[RequestServer instance] doActionAsync:0 withAction:@"/mobile/second?" withParameters:parmeters1 withDelegate:self];
+//        [self.newsArray removeAllObjects];
+//        _page = 1;
+//    }
+//    else if(refreshView == _footer)
+//    {
+//        _page++;
+////        NSString *parmeters1=[NSString stringWithFormat:@"page=%d&pageSize=5&menuId=%@",_page,[[NSUserDefaults standardUserDefaults] objectForKey:@"hangyezixun"]];
+////        [[RequestServer instance] doActionAsync:0 withAction:@"/mobReachabilityile/second?" withParameters:parmeters1 withDelegate:self];
+//    }
+//}
 
 #pragma mark 刷新团购
 - (void)reloadDeals

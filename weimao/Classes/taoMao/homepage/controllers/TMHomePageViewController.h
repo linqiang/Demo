@@ -8,11 +8,14 @@
 
 #import "LTKViewController.h"
 
-@interface TMHomePageViewController : LTKViewController<UITableViewDataSource,MJRefreshBaseViewDelegate,EScrollerViewDelegate,UIScrollViewDelegate>
+@interface TMHomePageViewController :
+LTKViewController<UITableViewDataSource,
+EScrollerViewDelegate,
+UIScrollViewDelegate>
 {
 
-    MJRefreshHeaderView                 *_header;
-    MJRefreshFooterView                 *_footer;
+    MJRefreshHeader                 *_header;
+    MJRefreshFooter                 *_footer;
     int                     _page;
     int                    _typeId;
     UIScrollView              *_scrollView;

@@ -9,12 +9,12 @@
 #import "LTKViewController.h"
 #import "MJRefresh.h"
 #import "EScrollerView.h"
-@interface NSTNoticeViewController : LTKViewController<UITableViewDelegate,UITableViewDataSource,MJRefreshBaseViewDelegate,EScrollerViewDelegate>
+@interface NSTNoticeViewController : LTKViewController<UITableViewDelegate,UITableViewDataSource,EScrollerViewDelegate>
 {
 
     UITableView *_tableView;
-    MJRefreshHeaderView                 *_header;
-    MJRefreshFooterView                 *_footer;
+    MJRefreshHeader                 *_header;
+    MJRefreshFooter                 *_footer;
     int                     _page;
     UIView *naviBar;
 }

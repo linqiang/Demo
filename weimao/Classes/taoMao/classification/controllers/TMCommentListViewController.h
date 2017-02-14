@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TMCommentListViewController : LTKViewController<UITableViewDelegate,UITableViewDataSource,MJRefreshBaseViewDelegate,EScrollerViewDelegate>
+@interface TMCommentListViewController : LTKViewController<UITableViewDelegate,UITableViewDataSource,EScrollerViewDelegate>
 {
     
     UITableView *_tableView;
-    MJRefreshHeaderView                 *_header;
-    MJRefreshFooterView                 *_footer;
+    MJRefreshHeader                 *_header;
+    MJRefreshFooter                 *_footer;
     int                     _page;
     UIView *naviBar;
 }

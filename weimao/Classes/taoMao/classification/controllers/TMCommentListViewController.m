@@ -102,14 +102,14 @@
     
     _page = 0;
     // 3.3行集成下拉刷新控件
-    _header = [MJRefreshHeaderView header];
-    _header.scrollView = _tableView;
-    _header.delegate = self;
-    
-    // 4.3行集成上拉加载更多控件
-    _footer = [MJRefreshFooterView footer];
-    _footer.scrollView = _tableView;
-    _footer.delegate = self;
+//    _header = [MJRefreshHeaderView header];
+//    _header.scrollView = _tableView;
+//    _header.delegate = self;
+//    
+//    // 4.3行集成上拉加载更多控件
+//    _footer = [MJRefreshFooterView footer];
+//    _footer.scrollView = _tableView;
+//    _footer.delegate = self;
     TMAppDelegate *app = (TMAppDelegate*)[[UIApplication sharedApplication] delegate];
     [app startLoading];
    
@@ -162,18 +162,18 @@
 }
 
 #pragma mark - 刷新的代理方法---进入下拉刷新\上拉加载更多都有可能调用这个方法
-- (void)refreshViewBeginRefreshing:(MJRefreshBaseView *)refreshView
-{
-    if (refreshView == _header)
-    { // 下拉刷新
-        // 增加9个假数据
-    }
-    else if(refreshView == _footer)
-    {
-        _page++;
-
-    }
-}
+//- (void)refreshViewBeginRefreshing:(MJRefreshBaseView *)refreshView
+//{
+//    if (refreshView == _header)
+//    { // 下拉刷新
+//        // 增加9个假数据
+//    }
+//    else if(refreshView == _footer)
+//    {
+//        _page++;
+//
+//    }
+//}
 
 #pragma mark 刷新团购
 - (void)reloadDeals
