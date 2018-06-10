@@ -279,7 +279,6 @@
 		0448E2AF190E20580031BE6E /* line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0448E145190E20580031BE6E /* line@2x.png */; };
 		0448E2B0190E20580031BE6E /* pic_01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0448E146190E20580031BE6E /* pic_01@2x.png */; };
 		0448E2B1190E20580031BE6E /* picbg_01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0448E147190E20580031BE6E /* picbg_01@2x.png */; };
-		0448E2B2190E20580031BE6E /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0448E149190E20580031BE6E /* bg@2x.png */; };
 		0448E2B3190E20580031BE6E /* bg_01_l@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0448E14A190E20580031BE6E /* bg_01_l@2x.png */; };
 		0448E2B4190E20580031BE6E /* dd_address@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0448E14B190E20580031BE6E /* dd_address@2x.png */; };
 		0448E2B5190E20580031BE6E /* dd_card@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0448E14C190E20580031BE6E /* dd_card@2x.png */; };
@@ -784,7 +783,6 @@
 		0448E145190E20580031BE6E /* line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "line@2x.png"; sourceTree = "<group>"; };
 		0448E146190E20580031BE6E /* pic_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pic_01@2x.png"; sourceTree = "<group>"; };
 		0448E147190E20580031BE6E /* picbg_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "picbg_01@2x.png"; sourceTree = "<group>"; };
-		0448E149190E20580031BE6E /* bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x.png"; sourceTree = "<group>"; };
 		0448E14A190E20580031BE6E /* bg_01_l@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_01_l@2x.png"; sourceTree = "<group>"; };
 		0448E14B190E20580031BE6E /* dd_address@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dd_address@2x.png"; sourceTree = "<group>"; };
 		0448E14C190E20580031BE6E /* dd_card@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dd_card@2x.png"; sourceTree = "<group>"; };
@@ -884,6 +882,7 @@
 		46D03E2B190E4A050079422F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		46D03E2D190E4A140079422F /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		46D03E2F190E4A1F0079422F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D913902E1E97ABF500CCF657 /* bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x.png"; sourceTree = "<group>"; };
 		D937EEB21E5316C000EFBE6E /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshAutoFooter.h; sourceTree = "<group>"; };
 		D937EEB31E5316C000EFBE6E /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshAutoFooter.m; sourceTree = "<group>"; };
 		D937EEB41E5316C000EFBE6E /* MJRefreshBackFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshBackFooter.h; sourceTree = "<group>"; };
@@ -1909,8 +1908,8 @@
 		0448E148190E20580031BE6E /* 购物车 */ = {
 			isa = PBXGroup;
 			children = (
+				D913902E1E97ABF500CCF657 /* bg@2x.png */,
 				043D7F231910FD900086C4B5 /* qcontactbutton@2x.png */,
-				0448E149190E20580031BE6E /* bg@2x.png */,
 				0448E14A190E20580031BE6E /* bg_01_l@2x.png */,
 				0448E14B190E20580031BE6E /* dd_address@2x.png */,
 				0448E14C190E20580031BE6E /* dd_card@2x.png */,
@@ -2184,9 +2183,6 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "___FULLUSERNAME___";
 				TargetAttributes = {
-					0448DE8D190E1FB40031BE6E = {
-						DevelopmentTeam = X3C4X7QVCZ;
-					};
 					0448DEAE190E1FB40031BE6E = {
 						TestTargetID = 0448DE8D190E1FB40031BE6E;
 					};
@@ -2277,7 +2273,6 @@
 				0448E22C190E20580031BE6E /* icon_04C@2x.png in Resources */,
 				0448E274190E20580031BE6E /* shopbt_03_@2x.png in Resources */,
 				0448E1EF190E20580031BE6E /* grayArrow@2x.png in Resources */,
-				0448E2B2190E20580031BE6E /* bg@2x.png in Resources */,
 				0448E295190E20580031BE6E /* 欢1.png in Resources */,
 				0448E2BE190E20580031BE6E /* ic_01_h_@2x.png in Resources */,
 				0448E1F9190E20580031BE6E /* FPViewController_iPhone.xib in Resources */,
@@ -2660,7 +2655,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -2693,7 +2688,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -2706,6 +2701,7 @@
 				ARCHS = (
 					armv7,
 					armv7s,
+					arm64,
 				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -2713,7 +2709,7 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = X3C4X7QVCZ;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)s/libs",
@@ -2732,7 +2728,7 @@
 					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)s/baidu/WB",
 					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)s/baidu/WX",
 				);
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -2749,6 +2745,7 @@
 				ARCHS = (
 					armv7,
 					armv7s,
+					arm64,
 				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -2756,7 +2753,7 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = X3C4X7QVCZ;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)s/libs",
