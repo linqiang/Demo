@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51982DAA20CFAFAD00B6F920 /* WMTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51982DA820CFAFAD00B6F920 /* WMTabBar.swift */; };
+		51982DAB20CFAFAD00B6F920 /* WMTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51982DA920CFAFAD00B6F920 /* WMTabBarViewController.swift */; };
+		51982DAD20CFB09400B6F920 /* WMTabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51982DAC20CFB09400B6F920 /* WMTabBarButton.swift */; };
+		51982DB620CFD13A00B6F920 /* WMTabBarMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51982DB520CFD13A00B6F920 /* WMTabBarMainViewController.swift */; };
+		51982DB920CFD47500B6F920 /* WMHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51982DB820CFD47500B6F920 /* WMHomeViewController.swift */; };
+		51982DBB20CFD4A500B6F920 /* WMMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51982DBA20CFD4A500B6F920 /* WMMineViewController.swift */; };
+		51982DBD20CFD4B400B6F920 /* WMSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51982DBC20CFD4B400B6F920 /* WMSearchViewController.swift */; };
+		51982DBF20CFD4D300B6F920 /* WMClassificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51982DBE20CFD4D300B6F920 /* WMClassificationViewController.swift */; };
+		51982DC120CFD4F200B6F920 /* WMShoppingCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51982DC020CFD4F200B6F920 /* WMShoppingCarViewController.swift */; };
+		51982DC320D0AC8D00B6F920 /* WMNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51982DC220D0AC8D00B6F920 /* WMNavigationViewController.swift */; };
 		D902803F20CCEF5800B77051 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D902803E20CCEF5800B77051 /* AppDelegate.swift */; };
 		D902804120CCEF5800B77051 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D902804020CCEF5800B77051 /* ViewController.swift */; };
 		D902804420CCEF5800B77051 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D902804220CCEF5800B77051 /* Main.storyboard */; };
@@ -15,6 +25,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		51982DA820CFAFAD00B6F920 /* WMTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMTabBar.swift; sourceTree = "<group>"; };
+		51982DA920CFAFAD00B6F920 /* WMTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMTabBarViewController.swift; sourceTree = "<group>"; };
+		51982DAC20CFB09400B6F920 /* WMTabBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMTabBarButton.swift; sourceTree = "<group>"; };
+		51982DB520CFD13A00B6F920 /* WMTabBarMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMTabBarMainViewController.swift; sourceTree = "<group>"; };
+		51982DB720CFD1CC00B6F920 /* ProjectInitializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProjectInitializer.h; sourceTree = "<group>"; };
+		51982DB820CFD47500B6F920 /* WMHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMHomeViewController.swift; sourceTree = "<group>"; };
+		51982DBA20CFD4A500B6F920 /* WMMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMMineViewController.swift; sourceTree = "<group>"; };
+		51982DBC20CFD4B400B6F920 /* WMSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMSearchViewController.swift; sourceTree = "<group>"; };
+		51982DBE20CFD4D300B6F920 /* WMClassificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMClassificationViewController.swift; sourceTree = "<group>"; };
+		51982DC020CFD4F200B6F920 /* WMShoppingCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMShoppingCarViewController.swift; sourceTree = "<group>"; };
+		51982DC220D0AC8D00B6F920 /* WMNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMNavigationViewController.swift; sourceTree = "<group>"; };
 		D902803B20CCEF5800B77051 /* weimao_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weimao_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D902803E20CCEF5800B77051 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D902804020CCEF5800B77051 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +56,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51982DA720CFAFAD00B6F920 /* tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				51982DA820CFAFAD00B6F920 /* WMTabBar.swift */,
+				51982DA920CFAFAD00B6F920 /* WMTabBarViewController.swift */,
+				51982DAC20CFB09400B6F920 /* WMTabBarButton.swift */,
+				51982DB720CFD1CC00B6F920 /* ProjectInitializer.h */,
+			);
+			path = tabbar;
+			sourceTree = "<group>";
+		};
+		51982DAE20CFC69600B6F920 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				51982DB820CFD47500B6F920 /* WMHomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		51982DAF20CFC69600B6F920 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				51982DBC20CFD4B400B6F920 /* WMSearchViewController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		51982DB020CFC69600B6F920 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				51982DBA20CFD4A500B6F920 /* WMMineViewController.swift */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		51982DB220CFC69600B6F920 /* ShoppingCar */ = {
+			isa = PBXGroup;
+			children = (
+				51982DC020CFD4F200B6F920 /* WMShoppingCarViewController.swift */,
+			);
+			path = ShoppingCar;
+			sourceTree = "<group>";
+		};
+		51982DB320CFCFAB00B6F920 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				51982DB520CFD13A00B6F920 /* WMTabBarMainViewController.swift */,
+				51982DC220D0AC8D00B6F920 /* WMNavigationViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		51982DB420CFCFB100B6F920 /* Classification */ = {
+			isa = PBXGroup;
+			children = (
+				51982DBE20CFD4D300B6F920 /* WMClassificationViewController.swift */,
+			);
+			path = Classification;
+			sourceTree = "<group>";
+		};
 		D902803220CCEF5700B77051 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +135,13 @@
 		D902803D20CCEF5800B77051 /* weimao_swift */ = {
 			isa = PBXGroup;
 			children = (
+				51982DB420CFCFB100B6F920 /* Classification */,
+				51982DB320CFCFAB00B6F920 /* Main */,
+				51982DAE20CFC69600B6F920 /* Home */,
+				51982DB020CFC69600B6F920 /* Mine */,
+				51982DAF20CFC69600B6F920 /* Search */,
+				51982DB220CFC69600B6F920 /* ShoppingCar */,
+				51982DA720CFAFAD00B6F920 /* tabbar */,
 				D902803E20CCEF5800B77051 /* AppDelegate.swift */,
 				D902804020CCEF5800B77051 /* ViewController.swift */,
 				D902804220CCEF5800B77051 /* Main.storyboard */,
@@ -135,8 +223,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51982DC320D0AC8D00B6F920 /* WMNavigationViewController.swift in Sources */,
+				51982DBD20CFD4B400B6F920 /* WMSearchViewController.swift in Sources */,
+				51982DB620CFD13A00B6F920 /* WMTabBarMainViewController.swift in Sources */,
+				51982DBB20CFD4A500B6F920 /* WMMineViewController.swift in Sources */,
+				51982DB920CFD47500B6F920 /* WMHomeViewController.swift in Sources */,
+				51982DAD20CFB09400B6F920 /* WMTabBarButton.swift in Sources */,
 				D902804120CCEF5800B77051 /* ViewController.swift in Sources */,
+				51982DBF20CFD4D300B6F920 /* WMClassificationViewController.swift in Sources */,
+				51982DAB20CFAFAD00B6F920 /* WMTabBarViewController.swift in Sources */,
 				D902803F20CCEF5800B77051 /* AppDelegate.swift in Sources */,
+				51982DAA20CFAFAD00B6F920 /* WMTabBar.swift in Sources */,
+				51982DC120CFD4F200B6F920 /* WMShoppingCarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
