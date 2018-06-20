@@ -17,6 +17,9 @@
 		51982DBF20CFD4D300B6F920 /* WMClassificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51982DBE20CFD4D300B6F920 /* WMClassificationViewController.swift */; };
 		51982DC120CFD4F200B6F920 /* WMShoppingCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51982DC020CFD4F200B6F920 /* WMShoppingCarViewController.swift */; };
 		51982DC320D0AC8D00B6F920 /* WMNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51982DC220D0AC8D00B6F920 /* WMNavigationViewController.swift */; };
+		51F09C5E20DA266F00E0D80A /* WMTopBannerScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F09C5D20DA266F00E0D80A /* WMTopBannerScrollView.swift */; };
+		51F09C6020DA351800E0D80A /* WMCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F09C5F20DA351700E0D80A /* WMCarouselView.swift */; };
+		51F09C6320DA3FA200E0D80A /* WMTopBannerCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F09C6220DA3FA200E0D80A /* WMTopBannerCollectionCell.swift */; };
 		D902803F20CCEF5800B77051 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D902803E20CCEF5800B77051 /* AppDelegate.swift */; };
 		D902804120CCEF5800B77051 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D902804020CCEF5800B77051 /* ViewController.swift */; };
 		D902804420CCEF5800B77051 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D902804220CCEF5800B77051 /* Main.storyboard */; };
@@ -36,6 +39,9 @@
 		51982DBE20CFD4D300B6F920 /* WMClassificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMClassificationViewController.swift; sourceTree = "<group>"; };
 		51982DC020CFD4F200B6F920 /* WMShoppingCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMShoppingCarViewController.swift; sourceTree = "<group>"; };
 		51982DC220D0AC8D00B6F920 /* WMNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMNavigationViewController.swift; sourceTree = "<group>"; };
+		51F09C5D20DA266F00E0D80A /* WMTopBannerScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMTopBannerScrollView.swift; sourceTree = "<group>"; };
+		51F09C5F20DA351700E0D80A /* WMCarouselView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMCarouselView.swift; sourceTree = "<group>"; };
+		51F09C6220DA3FA200E0D80A /* WMTopBannerCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMTopBannerCollectionCell.swift; sourceTree = "<group>"; };
 		D902803B20CCEF5800B77051 /* weimao_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weimao_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D902803E20CCEF5800B77051 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D902804020CCEF5800B77051 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,7 +76,10 @@
 		51982DAE20CFC69600B6F920 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				51F09C6120DA3F8600E0D80A /* View */,
+				51F09C5F20DA351700E0D80A /* WMCarouselView.swift */,
 				51982DB820CFD47500B6F920 /* WMHomeViewController.swift */,
+				51F09C5D20DA266F00E0D80A /* WMTopBannerScrollView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -114,6 +123,14 @@
 				51982DBE20CFD4D300B6F920 /* WMClassificationViewController.swift */,
 			);
 			path = Classification;
+			sourceTree = "<group>";
+		};
+		51F09C6120DA3F8600E0D80A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				51F09C6220DA3FA200E0D80A /* WMTopBannerCollectionCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		D902803220CCEF5700B77051 = {
@@ -224,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51982DC320D0AC8D00B6F920 /* WMNavigationViewController.swift in Sources */,
+				51F09C6320DA3FA200E0D80A /* WMTopBannerCollectionCell.swift in Sources */,
 				51982DBD20CFD4B400B6F920 /* WMSearchViewController.swift in Sources */,
 				51982DB620CFD13A00B6F920 /* WMTabBarMainViewController.swift in Sources */,
 				51982DBB20CFD4A500B6F920 /* WMMineViewController.swift in Sources */,
@@ -231,7 +249,9 @@
 				51982DAD20CFB09400B6F920 /* WMTabBarButton.swift in Sources */,
 				D902804120CCEF5800B77051 /* ViewController.swift in Sources */,
 				51982DBF20CFD4D300B6F920 /* WMClassificationViewController.swift in Sources */,
+				51F09C5E20DA266F00E0D80A /* WMTopBannerScrollView.swift in Sources */,
 				51982DAB20CFAFAD00B6F920 /* WMTabBarViewController.swift in Sources */,
+				51F09C6020DA351800E0D80A /* WMCarouselView.swift in Sources */,
 				D902803F20CCEF5800B77051 /* AppDelegate.swift in Sources */,
 				51982DAA20CFAFAD00B6F920 /* WMTabBar.swift in Sources */,
 				51982DC120CFD4F200B6F920 /* WMShoppingCarViewController.swift in Sources */,
